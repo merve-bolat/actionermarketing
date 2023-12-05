@@ -17,7 +17,7 @@ on:
       environment:
         description: 'Environment'
         required: true
-        default: 'warning'
+        default: 'Lab'
         type: choice
         options:
         - Production
