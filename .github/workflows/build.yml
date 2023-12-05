@@ -23,6 +23,16 @@ on:
         - Production
         - Lab
         - Staging 
+      services:
+        description: 'Services'
+        required: true
+        default: 'All'
+        type: choice
+        options:
+        - Web
+        - REST-API
+        - Engine
+        - All
       print_tags:
         description: 'True to print to STDOUT'
         required: true
